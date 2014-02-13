@@ -1,1 +1,2 @@
-This is the implementation of a Reinforcement Learning agent I developed that learns how to play reversi. The algorithm it uses is called UCT (Upper Confidence bounds applied to Trees) which is a variation from traditional Monte Carlo Tree Search, taking advantage of the UCB algorithm for solving the K-armed bandit problem.
+This is the implementation of a Reinforcement Learning agent I developed that learns how to play reversi. The algorithm it's based on is called UCT (Upper Confidence bounds applied to Trees) which is a variation from traditional Monte Carlo Tree Search, taking advantage of the UCB algorithm for solving the K-armed bandit problem.
+Any questions regarding the implementation should be addressed to martinarjovsky@gmail.com
