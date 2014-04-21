@@ -29,7 +29,7 @@ function [ a_next ] = uct2 (s_start, player, num_simulaciones, max_steps, heuris
     start_node.n = zeros(1, length(start_node.children));
     
     
-    Qplot = zeros(num_simulaciones, length(start_node.children));
+%    Qplot = zeros(num_simulaciones, length(start_node.children));
    
     for sims = 1: num_simulaciones
            
@@ -105,7 +105,7 @@ function [ a_next ] = uct2 (s_start, player, num_simulaciones, max_steps, heuris
             nodes(i).Q(actions(i)) = nodes(i).Q(actions(i)) + (R - nodes(i).Q(actions(i)))/nodes(i).n(actions(i));
         end
         
-        Qplot(sims, :) = start_node.Q;
+%        Qplot(sims, :) = start_node.Q;
         
     end
 
