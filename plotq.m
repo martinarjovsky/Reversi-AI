@@ -1,3 +1,7 @@
+% Plots the learning curve of UCT. To do this, uncomment
+% the lines mentioned in uct.m and add a breakpoint in  uct.m 
+% right before the last end.
+
 figure;
 hold all;
 for i = 1:size(Qplot, 2)

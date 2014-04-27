@@ -1,6 +1,5 @@
 classdef dec_tree < handle
-    %Arbol de decisiones para UCT
-    %   Detailed explanation goes here
+    %Decission tree structure used by UCT
     
     properties
         children

@@ -4,8 +4,10 @@ function [ s_next, r, eoe, validMoves, nplayer ]= doAction(s, a, player, heurist
 % on that that state by that player, it returns the next state 's_next',
 % the reward 'r' received by the player performing the action, a boolean
 % value 'eoe' if the next state is an end of episode state, the next
-% player 'nplayer' and the set of valid moves'validMoves' to perform
-% by the next player on the next state.
+% player 'nplayer' and the set of valid moves'validMoves' the next player
+% can perform on the next state. The conventions for these values are the
+% same used by UCT, and can be found in the coments of uct.m
+
     r = [0,0];
     eoe = false;
     s_next = s;
